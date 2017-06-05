@@ -16,7 +16,8 @@ const BEresponse  = {
     "cta1_url": "/content/sof/en_us/shippingandreturns.html",
     "headline": "Retail",
     "url_behave": "_self",
-    "cta1_label": "Shop for him"
+    "cta1_label": "Shop for him",
+    "image_panel": "http://content.hbc.com/content/dam/saksoff5th/homepage/18_053117_PUB/HP/18_060217_HP_CP_SUB_1.jpg"
 };
 
 
@@ -24,7 +25,9 @@ const BEresponse  = {
  export default class NewLayout extends React.Component {
    render() {
      return (
-         <Fifty50Editorial headline={BEresponse.headline}  hexcolor={BEresponse.headline_color}  ctaurlbehave={BEresponse.url_behave}/>
+         <Fifty50Editorial headline={BEresponse.headline}  hexcolor={BEresponse.headline_color}  ctaurlbehave={BEresponse.url_behave}
+         subhead1={BEresponse.subhead1} cta1_label={BEresponse.cta1_label} cta1_url={BEresponse.cta1_url} 
+         image_panel={BEresponse.image_panel}/>
    );
   }
  }
