@@ -53,7 +53,7 @@ export default class Fifty50Editorial extends React.Component {
                 </div>
 
                   <div className={"editorial-fifty-fifty__panel editorial-fifty-fifty__image-panel"}>
-                    <img className={"editorial-fifty-fifty__promo"} itemprop="image" src="http://content.hbc.com/content/dam/saksoff5th/homepage/18_053117_PUB/HP/18_060217_HP_CP_SUB_1.jpg" alt="alt text"/>
+                    <img className={"editorial-fifty-fifty__promo"} itemprop="image" src={this.props.image_panel} alt="alt text"/>
                   </div>
                 </div>
               </div>
